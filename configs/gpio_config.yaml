@@ -1,0 +1,9 @@
+gpio:
+  name: fake_gpio
+  default_state: low
+  mode: output
+  pull: none
+  debounce_time_ms: 10
+  interrupt_edge: rising
+  latency_limit_ms: 5
+  glitch_limit_ms: 2
