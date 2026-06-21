@@ -1,0 +1,14 @@
+adc:
+  name: fake_adc
+  resolution_bits: 12
+  reference_voltage: 3.3
+  sample_rate_hz: 1000
+  input_min_voltage: 0.0
+  input_max_voltage: 3.3
+  accuracy_tolerance_volts: 0.02
+  noise_limit_volts: 0.01
+  drift_limit_volts: 0.02
+  saturation_min_code: 0
+  saturation_max_code: 4095
+  calibration_offset_volts: 0.0
+  calibration_gain: 1.0
