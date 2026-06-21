@@ -1,0 +1,9 @@
+pwm:
+  name: fake_pwm
+  frequency_hz: 1000
+  duty_cycle_percent: 50.0
+  frequency_tolerance_hz: 5
+  duty_cycle_tolerance_percent: 1.0
+  jitter_limit_us: 10
+  dead_time_us: 0
+  enabled: true
