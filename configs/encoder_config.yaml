@@ -1,0 +1,9 @@
+encoder:
+  name: fake_encoder
+  pulses_per_revolution: 1024
+  initial_position: 0
+  expected_direction: forward
+  velocity_tolerance_rpm: 5
+  position_tolerance_counts: 2
+  pulse_loss_limit: 0
+  sample_time_ms: 100
