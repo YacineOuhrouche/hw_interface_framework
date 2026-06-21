@@ -1,0 +1,12 @@
+dac:
+  name: fake_dac
+  resolution_bits: 12
+  reference_voltage: 3.3
+  output_min_voltage: 0.0
+  output_max_voltage: 3.3
+  update_rate_hz: 1000
+  settling_time_limit_ms: 2.0
+  linearity_tolerance_volts: 0.02
+  output_tolerance_volts: 0.02
+  calibration_offset_volts: 0.0
+  calibration_gain: 1.0
